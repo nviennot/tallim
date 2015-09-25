@@ -16,6 +16,7 @@
   },
   "scripts": {
     "server": "node server",
-    "brunch": "brunch watch --server"
+    "brunch": "brunch watch --server",
+    "postinstall": "bower install && brunch build --production"
   }
 }
