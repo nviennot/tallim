@@ -1,6 +1,6 @@
-var express = require('express')
-var morgan = require('morgan')
-var app = express()
+const express = require('express')
+const morgan = require('morgan')
+const app = express()
 
 app.use(morgan('dev'))
 app.use(express.static('priv/static'))
