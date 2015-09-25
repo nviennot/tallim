@@ -18,7 +18,8 @@ exports.config =
 
     stylesheets:
       joinTo:
-        'css/app.css': /^(web\/static|bower_components)/
+        'css/app.css': /^web\/static/
+        'css/vendor.css': /^(bower_components|vendor)/
 
     # templates:
       # joinTo:
