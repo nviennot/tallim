@@ -8,5 +8,5 @@ app.use(express.static('priv/static'))
 // Add routes
 
 const port = process.env.PORT || 3000
-console.log("Listening on port " + port)
+console.log(`Listening on port ${port}`)
 app.listen(port)

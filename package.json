@@ -2,6 +2,7 @@
   "repository": {},
   "dependencies": {
     "auto-reload-brunch": "^1.8.0",
+    "babel": "^5.8.23",
     "babel-brunch": "^5.1.1",
     "bower": ">= 1.5.3",
     "brunch": "^1.8.5",
@@ -15,7 +16,7 @@
     "uglify-js-brunch": ">= 1.0 < 1.8"
   },
   "scripts": {
-    "server": "node server",
+    "server": "node server-bootstrap",
     "brunch": "brunch watch --server",
     "postinstall": "bower install && brunch build --production"
   }
