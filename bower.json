@@ -1,0 +1,15 @@
+{
+  "name": "tallim",
+  "version": "0.0.1",
+  "description": "tallim",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.13.3",
+    "bootstrap": "~3.3.5"
+  }
+}

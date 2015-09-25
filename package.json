@@ -1,0 +1,21 @@
+{
+  "repository": {},
+  "dependencies": {
+    "auto-reload-brunch": "^1.8.0",
+    "babel-brunch": "^5.1.1",
+    "bower": ">= 1.5.3",
+    "brunch": "^1.8.5",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "express": ">= 4.13.3",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "less-brunch": "^1.8.1",
+    "morgan": "^1.6.1",
+    "sass-brunch": ">= 1.9.0",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
+  },
+  "scripts": {
+    "server": "node server",
+    "brunch": "brunch watch --server"
+  }
+}
