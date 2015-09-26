@@ -1,25 +1,25 @@
-const $ = jQuery
+class School extends React.Component {
+  render() {
+    return <li>{this.props.name}</li>
+  }
+}
 
 class Schools extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {schools: []}
+  }
+
   componentDidMount() {
     $.get(this.props.source, result => {
-      // if (this.isMounted()) {
-        this.setState({
-          schools: result
-        })
-      // }
-    }.bind(this))
+      this.setState({schools: result})
+    })
   }
 
   render() {
-    const lis = (this.state || {schools:[]}).schools.map(school => <li>{school.name}</li>)
-    return <ul>{lis}</ul>
-  }
-
-  getInitialState() {
-    return {
-      schools: []
-    }
+    return <ul>{this.state.schools.map(school =>
+             <School key={school.id} {...school}/>)}
+           </ul>
   }
 }
 
