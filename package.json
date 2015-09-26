@@ -1,17 +1,21 @@
 {
   "repository": {},
   "dependencies": {
+    "async": "^1.4.2",
     "auto-reload-brunch": "^1.8.0",
     "babel": "^5.8.23",
     "babel-brunch": "^5.1.1",
+    "body-parser": "^1.14.0",
     "bower": ">= 1.5.3",
     "brunch": "^1.8.5",
     "clean-css-brunch": ">= 1.0 < 1.8",
+    "coffee-script": "^1.10.0",
     "css-brunch": ">= 1.0 < 1.8",
     "express": ">= 4.13.3",
     "javascript-brunch": ">= 1.0 < 1.8",
     "less-brunch": "^1.8.1",
     "morgan": "^1.6.1",
+    "rethinkdb": "^2.1.1",
     "sass-brunch": ">= 1.9.0",
     "uglify-js-brunch": ">= 1.0 < 1.8"
   },

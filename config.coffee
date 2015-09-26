@@ -28,3 +28,12 @@ exports.config =
   plugins:
     babel:
       ignore: [/web\/static\/vendor/, /bower_components/]
+
+exports.app_config =
+  rethinkdb:
+    host: 'localhost'
+    port: 28015
+    authKey: ''
+    db: 'tallim'
+  express:
+     port: 3000
